@@ -56,10 +56,10 @@ Micro-architecture diagrams and detailed module descriptions are available in th
 
 ### Eliraz Kadosh
 - [GitHub](https://github.com/elirazkadosh)
-- [LinkedIn](https://www.linkedin.com/in/elirazkadosh)
+- [LinkedIn](https://www.linkedin.com/in/eliraz-kadosh)
 
 ### Eliram Amrosi
-- [GitHub](https://github.com/eliramamrosi)
+- [GitHub](https://github.com/EliramAmrusi)
 - [LinkedIn](https://www.linkedin.com/in/eliramamrosi)
 
 
