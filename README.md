@@ -59,8 +59,8 @@ Micro-architecture diagrams and detailed module descriptions are available in th
 - [LinkedIn](https://www.linkedin.com/in/eliraz-kadosh)
 
 ### Eliram Amrosi
-- [GitHub](https://www.linkedin.com/in/eliram-amrusi-11b949258/)
-- [LinkedIn](https://www.linkedin.com/in/eliramamrusi)
+- [GitHub](https://github.com/eliramamrusi)
+- [LinkedIn](https://www.linkedin.com/in/eliram-amrusi-11b949258)
 
 
 Supervisor: Dr. Amit Berman  
