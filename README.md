@@ -4,7 +4,7 @@ A hardware-level project that combines **Hamming Error Correction Code (ECC)** w
 
 ## Table of Contents
 - [Overview](#overview)
-- [Systems Comparison Table](#system-comparison-table)
+- [System Comparison Table](#system-comparison-table)
 - [Micro Architecture](#micro-architecture)
 - [Simulation Results](#simulation-results)
 - [Development](#development)
