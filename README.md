@@ -37,7 +37,6 @@ The system is composed of the following components:
 - **Parity Calculator**
 - **Disk Writer/Reader Modules**
 - **Controller**
-- **RAID 5 Recovery FSM**
 
 Micro-Architecture diagrams and detailed module descriptions are available in the full report.
 
