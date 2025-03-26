@@ -1,0 +1,151 @@
+🔄 Write counters have been reset.
+
+🔄 Initial RAID 5 System State:
+
+📊 Write Counters Summary:
+Disk Write Counts:
+Disk 0: 0 writes
+Disk 1: 0 writes
+Disk 2: 0 writes
+
+Block Write Counts per Disk:
+Disk 0: [0, 0, 0, 0, 0, 0]
+Disk 1: [0, 0, 0, 0, 0, 0]
+Disk 2: [0, 0, 0, 0, 0, 0]
+🔄 Disk 0 has been reset. All blocks are now zero.
+🔄 Disk 1 has been reset. All blocks are now zero.
+🔄 Disk 2 has been reset. All blocks are now zero.
+
+📝 Simulating Mixed Write Distribution (75% Random, 25% Pattern-Based Repeated)...
+✨ Random Write: Address: 5, Data: 0110 1011 1001 1101
+✅ Write request added to buffer.
+✨ Random Write: Address: 3, Data: 1110 1111 0000 1000
+✅ Write request added to buffer.
+✨ Random Write: Address: 0, Data: 0000 1110 0111 0000
+✅ Write request added to buffer.
+🔄 Repeated Write: Address: 0, Data: 0000 1110 0110 0001
+✅ Write request added to buffer.
+✨ Random Write: Address: 0, Data: 0000 1110 1110 1010
+✅ Write request added to buffer.
+✨ Random Write: Address: 4, Data: 1101 1111 0001 0010
+✅ Write request added to buffer.
+✨ Random Write: Address: 2, Data: 1100 0100 1100 1001
+✅ Write request added to buffer.
+🔄 Repeated Write: Address: 2, Data: 0010 1101 1100 1001
+✅ Write request added to buffer.
+✨ Random Write: Address: 5, Data: 1110 1101 1010 0011
+✅ Write request added to buffer.
+✨ Random Write: Address: 0, Data: 1000 1101 1110 0101
+✅ Write request added to buffer.
+
+🔄 Handling Write Request: Address: 0000 0101, Data: 0110 1011 1001 1101 (27549)
+🔹 D0 (Upper 8 bits): 0110 1011 (107)
+🔹 D1 (Lower 8 bits): 1001 1101 (157)
+🔹 D0_enc: 1001 1101 1011 (2523)
+🔹 D1_enc: 1110 0011 1101 (3645)
+🔹 D0_enc_old: 0000 0000 0000 (0)
+🔹 D1_enc_old: 0000 0000 0000 (0)
+🔄 Calculated New Parity (P0_new): 0111 1110 0110 (2022)
+✍️ Writing All: P0_new (2022), D0_enc (2523), D1_enc (3645)
+
+🔄 Handling Write Request: Address: 0000 0011, Data: 1110 1111 0000 1000 (61192)
+🔹 D0 (Upper 8 bits): 1110 1111 (239)
+🔹 D1 (Lower 8 bits): 0000 1000 (8)
+🔹 D0_enc: 0011 1100 1111 (975)
+🔹 D1_enc: 1000 0001 1000 (2072)
+🔹 D0_enc_old: 0000 0000 0000 (0)
+🔹 D1_enc_old: 0000 0000 0000 (0)
+🔄 Calculated New Parity (P0_new): 1011 1101 0111 (3031)
+✍️ Writing All: P0_new (3031), D0_enc (975), D1_enc (2072)
+
+🔄 Handling Write Request: Address: 0000 0000, Data: 0000 1110 0111 0000 (3696)
+🔹 D0 (Upper 8 bits): 0000 1110 (14)
+🔹 D1 (Lower 8 bits): 0111 0000 (112)
+🔹 D0_enc: 0000 0001 1110 (30)
+🔹 D1_enc: 0001 1110 0000 (480)
+🔹 D0_enc_old: 0000 0000 0000 (0)
+🔹 D1_enc_old: 0000 0000 0000 (0)
+🔄 Calculated New Parity (P0_new): 0001 1111 1110 (510)
+✍️ Writing All: P0_new (510), D0_enc (30), D1_enc (480)
+
+🔄 Handling Write Request: Address: 0000 0000, Data: 0000 1110 0110 0001 (3681)
+🔹 D0 (Upper 8 bits): 0000 1110 (14)
+🔹 D1 (Lower 8 bits): 0110 0001 (97)
+🔹 D0_enc: 0000 0001 1110 (30)
+🔹 D1_enc: 1101 1101 0001 (3537)
+🔹 D0_enc_old: 0000 0001 1110 (30)
+🔹 D1_enc_old: 0001 1110 0000 (480)
+🔄 Calculated New Parity (P0_new): 1101 1100 1111 (3535)
+✍️ Writing Only: P0_new (3535), D1_enc (3537)
+
+🔄 Handling Write Request: Address: 0000 0000, Data: 0000 1110 1110 1010 (3818)
+🔹 D0 (Upper 8 bits): 0000 1110 (14)
+🔹 D1 (Lower 8 bits): 1110 1010 (234)
+🔹 D0_enc: 0000 0001 1110 (30)
+🔹 D1_enc: 0110 1100 1010 (1738)
+🔹 D0_enc_old: 0000 0001 1110 (30)
+🔹 D1_enc_old: 1101 1101 0001 (3537)
+🔄 Calculated New Parity (P0_new): 0110 1101 0100 (1748)
+✍️ Writing Only: P0_new (1748), D1_enc (1738)
+
+🔄 Handling Write Request: Address: 0000 0100, Data: 1101 1111 0001 0010 (57106)
+🔹 D0 (Upper 8 bits): 1101 1111 (223)
+🔹 D1 (Lower 8 bits): 0001 0010 (18)
+🔹 D0_enc: 1011 1010 1111 (2991)
+🔹 D1_enc: 0001 0011 0010 (306)
+🔹 D0_enc_old: 0000 0000 0000 (0)
+🔹 D1_enc_old: 0000 0000 0000 (0)
+🔄 Calculated New Parity (P0_new): 1010 1001 1101 (2717)
+✍️ Writing All: P0_new (2717), D0_enc (2991), D1_enc (306)
+
+🔄 Handling Write Request: Address: 0000 0010, Data: 1100 0100 1100 1001 (50377)
+🔹 D0 (Upper 8 bits): 1100 0100 (196)
+🔹 D1 (Lower 8 bits): 1100 1001 (201)
+🔹 D0_enc: 0011 1001 0100 (916)
+🔹 D1_enc: 1110 1000 1001 (3721)
+🔹 D0_enc_old: 0000 0000 0000 (0)
+🔹 D1_enc_old: 0000 0000 0000 (0)
+🔄 Calculated New Parity (P0_new): 1101 0001 1101 (3357)
+✍️ Writing All: P0_new (3357), D0_enc (916), D1_enc (3721)
+
+🔄 Handling Write Request: Address: 0000 0010, Data: 0010 1101 1100 1001 (11721)
+🔹 D0 (Upper 8 bits): 0010 1101 (45)
+🔹 D1 (Lower 8 bits): 1100 1001 (201)
+🔹 D0_enc: 1000 0101 1101 (2141)
+🔹 D1_enc: 1110 1000 1001 (3721)
+🔹 D0_enc_old: 0011 1001 0100 (916)
+🔹 D1_enc_old: 1110 1000 1001 (3721)
+🔄 Calculated New Parity (P0_new): 0110 1101 0100 (1748)
+✍️ Writing Only: P0_new (1748), D0_enc (2141)
+
+🔄 Handling Write Request: Address: 0000 0101, Data: 1110 1101 1010 0011 (60835)
+🔹 D0 (Upper 8 bits): 1110 1101 (237)
+🔹 D1 (Lower 8 bits): 1010 0011 (163)
+🔹 D0_enc: 1111 1101 1101 (4061)
+🔹 D1_enc: 0110 0100 0011 (1603)
+🔹 D0_enc_old: 1001 1101 1011 (2523)
+🔹 D1_enc_old: 1110 0011 1101 (3645)
+🔄 Calculated New Parity (P0_new): 1001 1001 1110 (2462)
+✍️ Writing All: P0_new (2462), D0_enc (4061), D1_enc (1603)
+
+🔄 Handling Write Request: Address: 0000 0000, Data: 1000 1101 1110 0101 (36325)
+🔹 D0 (Upper 8 bits): 1000 1101 (141)
+🔹 D1 (Lower 8 bits): 1110 0101 (229)
+🔹 D0_enc: 0011 0001 1101 (797)
+🔹 D1_enc: 0111 1100 0101 (1989)
+🔹 D0_enc_old: 0000 0001 1110 (30)
+🔹 D1_enc_old: 0110 1100 1010 (1738)
+🔄 Calculated New Parity (P0_new): 0100 1101 1000 (1240)
+✍️ Writing All: P0_new (1240), D0_enc (797), D1_enc (1989)
+✅ Mixed Write Simulation Completed.
+
+📊 Write Counters Summary:
+Disk Write Counts:
+Disk 0: 10 writes
+Disk 1: 10 writes
+Disk 2: 7 writes
+
+Block Write Counts per Disk:
+Disk 0: [4, 0, 2, 1, 1, 2]
+Disk 1: [4, 0, 2, 1, 1, 2]
+Disk 2: [2, 0, 1, 1, 1, 2]
