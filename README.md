@@ -49,7 +49,7 @@ Micro-Architecture diagrams and detailed module descriptions are available in th
 
 ## Development
 - **Language**: Verilog, SystemVerilog for hardware; Python for algorithm simulation, bash for scripting.
-- **Tools**: Cadence: Innovus. Synopsys: Verdi, Design Vision, Quartus/Vivado, Python 3.x
+- **Tools**: Cadence: Innovus. Synopsys: Verdi, Design Vision. PyCharm.
 
 ## Contributors
 - Eliraz Kadosh 
