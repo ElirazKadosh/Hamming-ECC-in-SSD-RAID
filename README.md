@@ -51,7 +51,7 @@ Micro-architecture diagrams and detailed module descriptions are available in th
 
 ## Contributors
 - Eliraz Kadosh 
-- Eliram Amrosi
+- Eliram Amrusi
 
 
 ### Eliraz Kadosh
@@ -60,7 +60,7 @@ Micro-architecture diagrams and detailed module descriptions are available in th
 
 ### Eliram Amrosi
 - [GitHub](https://www.linkedin.com/in/eliram-amrusi-11b949258/)
-- [LinkedIn](https://www.linkedin.com/in/eliramamrosi)
+- [LinkedIn](https://www.linkedin.com/in/eliramamrusi)
 
 
 Supervisor: Dr. Amit Berman  
