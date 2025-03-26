@@ -11,7 +11,7 @@ A hardware-level project that combines **Hamming Error Correction Code (ECC)** w
 - [Contributors](#contributors)
 
 ## Overview
-This project implements a hybrid storage system that integrates **RAID 5 parity** and **Hamming (12,8) ECC** to detect and correct single-bit errors (SBE) and recover data from single disk failures. The goal is to enhance data reliability system performance.
+This project implements a hybrid storage system that integrates **RAID 5 parity** and **Hamming (12,8) ECC** to detect and correct single-bit errors (SBE) and recover data from single disk failures. The goal is to enhance data reliability and system performance.
 
 ### Key Technologies
 - **RAID 5**: Data striping with distributed parity for disk failure recovery.
